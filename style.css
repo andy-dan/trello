@@ -1,0 +1,25 @@
+*{box-sizing: border-box;}
+
+.column-container {border: 1px solid black;
+                    max-width: 100vw;
+                    background-color: darkgrey;
+                   /* display: inline;
+                      flex-direction: row;
+                      flex-wrap: nowrap; spowoduje elasyczne umieszczanie column w wierszu=contenerze dla kolumn*/
+                    }
+.column-card-list {border: 1px solid red;
+                    max-width: 33vw;
+                    min-height: 300px;
+                    list-style: none;
+                    padding: 0;}
+
+.create-column {border: 1px solid green;}
+
+.column {display: inline-block;
+            width: 32vw;
+            background-color: darkgrey;
+            position: relative;}
+.column-title {background-color: aqua;
+                display: inline-block;}
+button {margin: 5px;
+        padding: 5px;}
